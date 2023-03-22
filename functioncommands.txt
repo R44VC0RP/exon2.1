@@ -1,0 +1,8 @@
+search-internet||N
+air-quality||N
+weather||Y
+get-calendar||N
+set-alarm||N
+set-reminder||N
+reservation-booking||N
+travel-planning||N

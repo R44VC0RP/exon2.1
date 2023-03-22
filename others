@@ -1,0 +1,40 @@
+Question: What's the weather forecast for today?
+INTENT: weather||CONFIDENCE: 100||STATEMENT TYPE: QUERY
+Question: What time is it?
+INTENT: time||CONFIDENCE: 100||STATEMENT TYPE: QUERY
+Question: What's the date?
+INTENT: date||CONFIDENCE: 100||STATEMENT TYPE: QUERY
+Question: What's on my schedule for tomorrow?
+INTENT: get-calendar{tomorrow}||CONFIDENCE: 100||STATEMENT TYPE: QUERY
+Question: Can you set an alarm for 7am?
+INTENT: set-alarm{7am}||CONFIDENCE: 90||STATEMENT TYPE: COMMAND
+Question: What's the news?
+INTENT: news||CONFIDENCE: 100||STATEMENT TYPE: QUERY
+Question: What's the traffic like on my commute?
+INTENT: search-internet{traffic[Commute]}||CONFIDENCE: 90||STATEMENT TYPE: QUERY
+Question: Remind me to call Mom in an hour.
+INTENT: set-reminder{call Mom}=1H||CONFIDENCE: 90||STATEMENT TYPE: COMMAND
+Question: What's the capital of Italy?
+INTENT: search-internet{geography[Italy, Capital]}||CONFIDENCE: 90||STATEMENT TYPE: QUERY
+Question: What's the meaning of the word 'procrastination'?
+INTENT: search-internet{definition[Procrastination]}||CONFIDENCE: 90||STATEMENT TYPE: QUERY
+Question: What's the exchange rate between USD and EUR?
+INTENT: search-internet{stocks[USD, EUR, Exchange Rate]}||CONFIDENCE: 90||STATEMENT TYPE: QUERY
+Question: What's the population of New York City?
+INTENT: search-internet{geography[New York City, Population]}||CONFIDENCE: 90||STATEMENT TYPE: QUERY
+Question: What's the nearest coffee shop?
+INTENT: search-internet{navigation[Coffee Shop, Nearest]}||CONFIDENCE: 90||STATEMENT TYPE: QUERY
+Question: What's the latest score in the football game?
+INTENT: search-internet{sports[Football, Latest Score]}||CONFIDENCE: 90||STATEMENT TYPE: QUERY
+Question: What's the best way to cook a steak?
+INTENT: search-internet{cooking[Steak, How to Cook Best Way]}||CONFIDENCE: 90||STATEMENT TYPE: QUERY
+Question: Can you call a taxi for me?
+INTENT: call-taxi||CONFIDENCE: 90||STATEMENT TYPE: COMMAND
+Question: What's the distance between New York and Los Angeles?
+INTENT: search-internet{navigation[Distance, New York, Los Angeles]}||CONFIDENCE: 90||STATEMENT TYPE: QUERY
+Question: What's the recipe for chocolate chip cookies?
+INTENT: search-internet{recipe[Chocolate Chip Cookies]}||CONFIDENCE: 90||STATEMENT TYPE: QUERY
+Question: What's the phone number for the nearest hospital?
+INTENT: search-internet{phone number[hospital, nearest]}||CONFIDENCE: 90||STATEMENT TYPE: QUERY
+Question: Tell me a joke.
+INTENT: joke||CONFIDENCE: 100||STATEMENT TYPE: QUERY

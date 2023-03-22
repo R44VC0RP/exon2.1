@@ -1,0 +1,13 @@
+
+FUNCTION:search-internet||navigation[UNF] 
+FUNCTION:search-internet||navigation[UNF] 
+FUNCTION:air-quality||Tulsa 
+FUNCTION:weather||tomorrow 
+FUNCTION:weather||Thursday,JacksonvilleFlorida 
+FUNCTION:weather||Thursday,Jacksonville,Florida 
+FUNCTION:weather||JacksonvilleFlorida,Thursday 
+FUNCTION:get-calendar||tomorrow 
+FUNCTION:set-alarm||7am 
+FUNCTION:set-reminder||callMom 
+FUNCTION:reservation-booking||FrenchRestaurant,4People 
+FUNCTION:travel-planning||RomanticWeekendGetaway 
